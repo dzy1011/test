@@ -1,8 +1,24 @@
 # test-readme
-论文名字  链接
+论文名字  
+链接
 
 ## Requirement 
-`python >= 3.6  pytorch >= 1.4`  
+`python >= 3.6  
+pytorch >= 1.4`  
+### How to Run it   
+```
+# MixATIS dataset
+python train.py -g -bs=16 -ne=100 -dd=./data/MixATIS -lod=./log/MixATIS -sd=./save/MixATIS -nh=4 -wed=32 -sed=128 -ied=64 -sdhd=64 -dghd=64 -ln=MixATIS.txt
+
+# MixSNIPS dataset
+python train.py -g -bs=64 -ne=50 -dd=./data/MixSNIPS -lod=./log/MixSNIPS -sd=./save/MixSNIPS -nh=8 -wed=32 -ied=64 -sdhd=64 -ln=MixSNIPS.txt
+
+# ATIS dataset
+python train.py -g -bs=16 -ne=300 -dd=./data/ATIS -lod=./log/ATIS -sd=./save/ATIS -nh=4 -wed=64 -ied=128 -sdhd=128 -ln=ATIS.txt
+
+# SNIPS dataset
+python train.py -g -bs=16 -ne=200 -dd=./data/SNIPS -lod=./log/SNIPS -sd=./save/SNIPS -nh=8 -wed=64 -ied=64 -sdhd=64 -ln=SNIPS.txt 
+```  
 ## Citation 
 When you use the our paper, we would appreciate it if you cite the following:  
 ```
