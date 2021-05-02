@@ -4,7 +4,7 @@
 ## Introduction  
 好多介绍
 ## Architecture
-![DGM_model](https://https://github.com/dzy1011/test/tree/main/imgg/123.png)  
+![DGM_model](https://github.com/dzy1011/test/tree/main/imgg/123.png)  
 ## Requirement 
 * python >= 3.6  
 * pytorch >= 1.4  
@@ -22,6 +22,7 @@ python train.py -g -bs=16 -ne=300 -dd=./data/ATIS -lod=./log/ATIS -sd=./save/ATI
 # SNIPS dataset
 python train.py -g -bs=16 -ne=200 -dd=./data/SNIPS -lod=./log/SNIPS -sd=./save/SNIPS -nh=8 -wed=64 -ied=64 -sdhd=64 -ln=SNIPS.txt 
 ```  
+Due to some stochastic factors(e.g., GPU and environment), it maybe need to slightly tune the hyper-parameters using grid search to reproduce the results reported in our paper.  
 ## Citation 
 When you use the our paper, we would appreciate it if you cite the following:  
 ```
