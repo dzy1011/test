@@ -4,7 +4,7 @@
 ## Introduction  
 好多介绍
 ## Architecture
-![DGM_model](https://github.com/dzy1011/test/tree/main/imgg/123.png)  
+![DGM_model](https://www.baidu.com/img/bd_logo1.png)  
 ## Requirement 
 * python >= 3.6  
 * pytorch >= 1.4  
