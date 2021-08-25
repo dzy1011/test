@@ -1,5 +1,5 @@
 # test-readme
-Focus on Interaction: A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling (https://ijcai.org/proceedings/2021/0523.pdf)
+[Focus on Interaction: A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling] (https://ijcai.org/proceedings/2021/0523.pdf)
 ## Introduction  
 好多介绍
 ## Architecture
@@ -42,5 +42,5 @@ When you use the our paper, we would appreciate it if you cite the following:
 ```  
 ## Acknowledgement
 > AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling. Libo Qin, Xiao Xu, Wanxiang Che, Ting Liu. EMNLP 2020 Accept-Findings. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.163/)  
-> This code is based AGIF(https://github.com/LooperXX/AGIF). We thank the authors for their wonderful open-source efforts.  
+> This code is based [AGIF](https://github.com/LooperXX/AGIF). We thank the authors for their wonderful open-source efforts.  
 
