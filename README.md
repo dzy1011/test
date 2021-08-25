@@ -33,7 +33,8 @@ protected void onDestroy() {
 }
 ```  
 ## Acknowledgement
-> A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding. Libo Qin,Wanxiang Che, Yangming Li, Haoyang Wen and Ting Liu. (EMNLP 2019). Long paper. [baidu](https://www.baidu.com/)    
+> A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding. Libo Qin,Wanxiang Che, Yangming Li, Haoyang Wen and Ting Liu. (EMNLP 2019). Long paper. [baidu](https://www.baidu.com/)  
+> This code is based SOM-DST. We thank the authors for their wonderful open-source efforts.  
 ```
 We are highly grateful for the public code of Stack-Propagation!
 ```  
