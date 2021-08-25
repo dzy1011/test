@@ -1,6 +1,5 @@
 # test-readme
-论文名字  
-链接
+Focus on Interaction: A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling (https://ijcai.org/proceedings/2021/0523.pdf)
 ## Introduction  
 好多介绍
 ## Architecture
@@ -26,15 +25,22 @@ Due to some stochastic factors(e.g., GPU and environment), it maybe need to slig
 ## Citation 
 When you use the our paper, we would appreciate it if you cite the following:  
 ```
-@Override
-protected void onDestroy() {
-    EventBus.getDefault().unregister(this);
-    super.onDestroy();
+@inproceedings{ijcai2021-523,
+  title     = {Focus on Interaction: A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling},
+  author    = {Ding, Zeyuan and Yang, Zhihao and Lin, Hongfei and Wang, Jian},
+  booktitle = {Proceedings of the Thirtieth International Joint Conference on
+               Artificial Intelligence, {IJCAI-21}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Zhi-Hua Zhou},
+  pages     = {3801--3807},
+  year      = {2021},
+  month     = {8},
+  note      = {Main Track}
+  doi       = {10.24963/ijcai.2021/523},
+  url       = {https://doi.org/10.24963/ijcai.2021/523},
 }
 ```  
 ## Acknowledgement
-> A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding. Libo Qin,Wanxiang Che, Yangming Li, Haoyang Wen and Ting Liu. (EMNLP 2019). Long paper. [baidu](https://www.baidu.com/)  
-> This code is based SOM-DST. We thank the authors for their wonderful open-source efforts.  
-```
-We are highly grateful for the public code of Stack-Propagation!
-```  
+> AGIF: An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling. Libo Qin, Xiao Xu, Wanxiang Che, Ting Liu. EMNLP 2020 Accept-Findings. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.163/)  
+> This code is based AGIF(https://github.com/LooperXX/AGIF). We thank the authors for their wonderful open-source efforts.  
+
