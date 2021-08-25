@@ -1,7 +1,7 @@
 # test-readme
 [Focus on Interaction: A Novel Dynamic Graph Model for Joint Multiple Intent Detection and Slot Filling](https://ijcai.org/proceedings/2021/0523.pdf)
 ## Introduction  
-好多介绍
+Intent detection and slot filling are two main tasks for building a spoken language understanding (SLU) system. Since the two tasks are closely related, the joint models for the two tasks always outperform the pipeline models in SLU. However, most joint models directly incorporate multiple intent information for each token, which introduces intent noise into the sentence semantics, causing a decrease in the performance of the joint model. In this paper, we propose a Dynamic Graph Model (DGM) for joint multiple intent detection and slot filling, in which we adopt a sentence-level intent-slot interactive graph to model the correlation between the intents and slot. Besides, we design a novel method of constructing the graph, which can dynamically update the interactive graph and further alleviate the error propagation.
 ## Architecture
 ![DGM_model](https://www.baidu.com/img/bd_logo1.png)  
 ## Requirement 
